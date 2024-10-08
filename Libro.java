@@ -5,6 +5,8 @@ public class Libro {
     private String genero;
     private double costo;
 
+    // Constructor
+
     public Libro(String titulo, String autor, int paginas, String genero, double costo) {
         this.titulo = titulo;
         this.autor = autor;
@@ -13,6 +15,8 @@ public class Libro {
         this.costo = costo;
     }
 
+    // Metodo
+    
     public void leer() {
         System.out.println("Estas leyendo " + titulo + " de " + autor);
 
